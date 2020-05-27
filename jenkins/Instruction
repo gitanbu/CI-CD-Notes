@@ -1,0 +1,14 @@
+
+Get user list from jenkins
+
+import hudson.model.User
+User.getAll().each { user ->
+   println user
+}
+
+
+Get user ID from jenkins
+
+import hudson.model.User
+User.getAll().each { user ->
+println user.getId()}
