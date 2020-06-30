@@ -1,0 +1,3 @@
+Go to script console from Jenkins , add below command on console , change the jobname and build number
+
+Jenkins.instance.getItemByFullName("JobName").updateNextBuildNumber(BUILD_NUMBER)
